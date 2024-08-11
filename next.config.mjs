@@ -1,4 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+export async function rewrites() {
+    return {
+        beforeFiles: [
+            {
+                source: '/src/app/pages/index.tsx',
+                destination: '/',
+            }
+        ]
+    }
+}
