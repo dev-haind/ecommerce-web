@@ -1,13 +1,15 @@
-import Head from 'next/head';
-import Header from '../components/checkout_header';
-import CheckoutForm from '../components/checkout_form';
-import OrderSummary from '../components/order_summary';
+'use client'
 
-const Checkout: React.FC = () => {
+import Head from 'next/head';
+import Header from './components/checkout_header';
+import CheckoutForm from './components/checkout_form';
+import OrderSummary from './components/order_summary';
+
+export default function Checkout() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Head>
-        <title>Checkout - Hà Khẩu Shop</title>
+        <title>Checkout - DEMO Shop</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
       </Head>
       <Header />
@@ -18,5 +20,3 @@ const Checkout: React.FC = () => {
     </div>
   );
 };
-
-export default Checkout;

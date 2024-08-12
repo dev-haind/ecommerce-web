@@ -6,7 +6,7 @@ const OrderSummary: React.FC = () => {
       <div className="border-b pb-4 mb-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <img src="https://via.placeholder.com/50" alt="Product" className="w-12 h-12 object-cover rounded mr-4" />
+            <img src="https://product.hstatic.net/200000319051/product/z4226408537196_46737bd05733598a23451892b9a561fd_43427a8da2134b1ba6f6d7f770cbc19a_large.jpg" alt="Product" className="w-12 h-12 object-cover rounded mr-4" />
             <div>
               <h3 className="text-lg font-semibold">Giày Loafer LV - Giày Loafer Louis Vuitton Nam</h3>
               <p className="text-sm">Size: 38</p>
